@@ -1,5 +1,6 @@
 body{
 background-color: darkseagreen;
+font-family: 'Amatica SC', cursive;
 }
 
 .brand-logo{
@@ -14,5 +15,13 @@ background-color: darkseagreen;
 
 #search{
 font-family: 'Amatica SC', cursive;
-	font-size: 1.5vw;
+font-size: 1.5vw;
 }
+
+ #map {
+   width: 50%;
+   height: 400px;
+	 margin-top: 1%;
+	 border: solid 2px greeen;
+   
+ }

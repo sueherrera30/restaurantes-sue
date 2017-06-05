@@ -35,7 +35,7 @@
 ">
       <form>
         <div class="input-field">
-          <input id="search" type="search" required placeholder="busca el puesto más cercano..
+          <input id="search" type="search" required placeholder="busca el puesto más cercano..">
           <label class="label-icon" for="search"><i class="material-icons">search</i></label>
           <i class="material-icons">close</i>
         </div>
@@ -44,10 +44,23 @@
   </nav>
   <!--termina barra de busqueda-->
   
+  <!--Mapa-->
+  <div class="row">
+    <h5 class="col s2 offset-s3 light-green-text text-darken-3">Ubicación:</h5>
+  	<div id="map" class="col s7 offset-s3"></div>
+  </div>
+  
+  <!--termina mapa-->
+  
 	
 	<!--links funcionalidad-->
+	
 	<script src="assets/js/jquery-3.2.1.min.js"></script>
+	
 	<script src="assets/js/materialize.min.css"></script>
+	 <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBgkcL0sTR3OilljJVktmOSyJr7CMR_h0&callback=initMap">
+    </script>
 	<script src="assets/js/main.js"></script>
 
 </body>
