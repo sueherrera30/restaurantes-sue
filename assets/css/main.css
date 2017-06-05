@@ -12,6 +12,10 @@ font-family: 'Amatica SC', cursive;
 	width: 5.5%;
 	height: 5.5%;
 }
+.imagen-logo2{
+	width: 10%;
+	height: 10%;
+}
 
 #search{
 font-family: 'Amatica SC', cursive;
@@ -25,3 +29,7 @@ font-size: 1.5vw;
 	 border: solid 2px greeen;
    
  }
+.card-panel{
+  font-size: 2vw;
+  font-weight: bold;
+}
